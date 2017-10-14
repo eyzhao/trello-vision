@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://trello.com/power-ups/power-up.css">
+    <script src="https://trello.com/power-ups/power-up.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="https://api.trello.com/1/client.js?key=88c2820ebbda50ae62ae526528372897"></script>
+  </head>
+  <body>
+    <div id="content">
+    
+      <div id='authentication'>
+        <button id="authenticate"
+        class="mod-primary"
+        href="https://trello.com/1/authorize?expiration=never&name=SinglePurposeToken&key=88c2820ebbda50ae62ae526528372897">Authenticate</button>
+      </div>
+      
+      <div id='show-boards'>
+        <button id="show-boards-button"
+        class="mod-primary"
+        onClick="showBoards(t)">Show Boards</button>
+      </div>
+      
+      <div id='projects'>
+        
+      </div>
+    
+      <div id='save'>
+        <button id="savebutton"
+          class="mod-primary">Save</button>
+      </div>
+    </div>
+    <script src="./js/settings.js"></script>
+  </body>
+</html>
